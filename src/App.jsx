@@ -1,10 +1,14 @@
 import './App.css';
-import UseState from './UseState/UseState';
+import ReducerExample from './UseReducer/ReducerExample';
+import StateExample from './UseState/StateExample';
+
 
 function App() {
   return (
     <div className="App">
-      <UseState />
+      <StateExample />
+      <hr />
+      <ReducerExample />
       <hr />
     </div>
   );

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function UseState() {
+function StateExample() {
     const [inputValue, setInputValue] = useState("Change me...");
 
     const handleChange = (event) => {
@@ -10,10 +10,11 @@ function UseState() {
 
     return (
         <div>
+            <h1 style={{ textAlign: "left" }}>1. useState</h1>
             <input placeholder='Write Something...' onChange={handleChange} />
             <h1>{inputValue}</h1>
         </div>
     )
 }
 
-export default UseState
+export default StateExample
