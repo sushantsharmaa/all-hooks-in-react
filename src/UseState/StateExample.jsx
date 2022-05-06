@@ -12,7 +12,7 @@ function StateExample() {
         <div>
             <h1 style={{ textAlign: "left" }}>1. useState</h1>
             <input placeholder='Write Something...' onChange={handleChange} />
-            <h1>{inputValue}</h1>
+            <h2>{inputValue}</h2>
         </div>
     )
 }

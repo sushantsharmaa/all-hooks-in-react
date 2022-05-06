@@ -17,7 +17,7 @@ function ReducerExample() {
     return (
         <div>
             <h1 style={{ textAlign: "left" }}>2. useReducer</h1>
-            <h1>{state.count}</h1>
+            <h2>{state.count}</h2>
             <button
                 onClick={() => {
                     dispatch({ type: "INCREMENT" });

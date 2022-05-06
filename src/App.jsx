@@ -1,6 +1,7 @@
 import './App.css';
 import EffectExample from './useEffect/EffectExample';
 import ReducerExample from './UseReducer/ReducerExample';
+import RefExample from './useRef/RefExample';
 import StateExample from './UseState/StateExample';
 
 
@@ -12,6 +13,8 @@ function App() {
       <ReducerExample />
       <hr />
       <EffectExample />
+      <hr />
+      <RefExample />
       <hr />
     </div>
   );
