@@ -1,5 +1,6 @@
 import './App.css';
 import EffectExample from './useEffect/EffectExample';
+import ImperativeHandleExample from './useImperativeHandle/ImperativeHandleExample';
 import LayoutEffectExample from './useLayoutEffect/LayoutEffectExample';
 import ReducerExample from './useReducer/ReducerExample';
 import RefExample from './useRef/RefExample';
@@ -18,6 +19,8 @@ function App() {
       <RefExample />
       <hr />
       <LayoutEffectExample />
+      <hr />
+      <ImperativeHandleExample />
       <hr />
     </div>
   );
