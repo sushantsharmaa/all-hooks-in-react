@@ -1,4 +1,5 @@
 import './App.css';
+import CallBackExample from './useCallBack/CallBackExample';
 import ContextExample from './useContext/ContextExample';
 import EffectExample from './useEffect/EffectExample';
 import ImperativeHandleExample from './useImperativeHandle/ImperativeHandleExample';
@@ -27,6 +28,8 @@ function App() {
       <ContextExample />
       <hr />
       <MemoExample />
+      <hr />
+      <CallBackExample />
     </div>
   );
 }
