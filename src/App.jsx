@@ -1,4 +1,5 @@
 import './App.css';
+import ContextExample from './useContext/ContextExample';
 import EffectExample from './useEffect/EffectExample';
 import ImperativeHandleExample from './useImperativeHandle/ImperativeHandleExample';
 import LayoutEffectExample from './useLayoutEffect/LayoutEffectExample';
@@ -21,6 +22,8 @@ function App() {
       <LayoutEffectExample />
       <hr />
       <ImperativeHandleExample />
+      <hr />
+      <ContextExample />
       <hr />
     </div>
   );
